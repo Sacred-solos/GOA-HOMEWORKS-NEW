@@ -1,0 +1,26 @@
+.box{
+    text-align: center;
+    background-color: aquamarine;
+    width: 500px;
+    margin-left:700px;
+}
+#t1{
+    width: 300px;
+}
+#t2{
+    width: 300px;
+    margin-left: 25px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}

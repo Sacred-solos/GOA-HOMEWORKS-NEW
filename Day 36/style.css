@@ -1,0 +1,40 @@
+body{
+    background-color: hsl(30, 54%, 90%)
+}
+#card{
+    background-color: white;
+    border-radius: 20px;
+    width: 720px;
+    height: 1650px;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+}
+.img{
+    max-width: 95%;
+    max-height: 95%;
+    
+}
+    
+#md{
+    background-color:lightpink;
+  opacity: 0.35;
+  border-radius: 20px;
+  height: 200px;
+}
+.ul1{
+    margin-top: 30px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    opacity: 1;
+    font-size: 30px;
+    padding: 10px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 40px;
+}
+.ol1{
+    color: hsl(14, 45%, 36%);;
+}

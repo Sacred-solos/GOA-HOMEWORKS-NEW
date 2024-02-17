@@ -1,0 +1,22 @@
+body{
+    background-image: url(./santa-claus-reindeer-sleigh-flyi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-family: cursive;
+}
+h2{
+    color:darkgreen;
+    font-family: cursive;
+}
+h3{
+    color:beige;
+    font-family: cursive;
+}
+p{
+    color:beige;
+    font-family:monospace;
+    margin-right: 900px;
+}

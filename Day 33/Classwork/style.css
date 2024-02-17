@@ -1,0 +1,73 @@
+#toppart{
+    width: 2000px;
+    height: 75px;
+}
+#logo{
+    width: 100px;
+    margin-left: 400px;
+}
+#toppart2{
+    width: 2000px;
+    height: 90px;
+    background-color: red;
+}
+a{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:hover{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 5;
+}
+h1{
+    font-size: 30px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    background-color: lightgray;
+    color: black;
+}
+#margin{
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+    background-color: gray;
+    height: 500px;
+    width: 800px;
+}
+#israimage{
+    width: 450px;
+    height: 240px;
+}
+.a2{
+    transition: 0.5s;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.a2:hover{
+    font-size: 40px;
+    color:brown;
+    text-decoration: underline;
+}
+#botpart{
+    width: 2000px;
+    height: 75px;
+    background-color: darkgray;
+}
+.bigs{
+    display: flex;
+}
+.smalls{
+    width: 600px;
+    height: 600px;
+}

@@ -1,0 +1,45 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url(./images/erik-mclean-ZRns2R5azu0-unsplash.jpg);
+    background-size: cover;
+}
+.info{
+    transition: 1.5s;
+    background-color: aquamarine;
+    border-radius: 15px;
+    width: 500px;
+    height: 500px
+}
+img{
+    max-width: 70%;
+    max-height: 70%;
+}
+p{
+    font-size: 30px;
+}
+a{
+    transition: 0.8s;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    background-color:darkcyan;
+    border-radius: 15px;
+    margin-right: 200px;
+}
+.info:hover{
+    transition: 1.5s;
+    background-color:cornflowerblue;
+    border-radius: 15px;
+    width: 750px;
+    height: 750px
+}
+a:hover{
+    transition: 0.8s;
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+    background-color:black;
+    border-radius: 15px;
+    margin-right: 200px;
+    
+}

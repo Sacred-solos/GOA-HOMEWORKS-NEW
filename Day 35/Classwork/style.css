@@ -1,0 +1,32 @@
+.wrap{
+    display: flex;
+}
+.a1{
+    margin-left: 800px;
+}
+.la{
+    background-color: blueviolet;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+    color: white;
+}
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.bd{
+    width: 600px;
+}
+p{
+    font-size: 30px;
+}
+button{
+    border-radius: 50px;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    
+}

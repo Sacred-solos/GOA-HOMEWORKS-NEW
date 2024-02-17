@@ -1,0 +1,41 @@
+p{
+    color: cadetblue;
+    font-family: cursive;
+    text-align: center;
+
+}
+h1{
+    color:aqua;
+    font-size: 36px;
+    font-family: fantasy;
+    text-align: center;
+}
+h2{
+    color:beige;
+    font-size: 36px;
+    font-family:fantasy;
+    text-align: center;
+}
+ol{
+    color:blue;
+    font-size: 36px;
+    font-family: cursive;
+    text-align: center;
+}
+ul{
+    color:aquamarine;
+    font-size: 36px;
+    font-family: cursive;
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+img{
+    size: 50px;
+}
+body{
+    background-image: url(./pexels-irina-iriser-1366957.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

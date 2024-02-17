@@ -1,0 +1,26 @@
+.div{
+    background-color: gray;
+    width: 250px;
+}
+.div2{
+    background-color: gray;
+    width: 250px;
+    height: 150px;
+}
+.top{
+    top: 80px;
+    left: 280px;
+    position: absolute;
+}
+.div3{
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.div4{
+    background-color: aliceblue;
+}
+#white,#white0{
+    background-color: white;
+}

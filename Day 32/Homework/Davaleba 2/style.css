@@ -1,0 +1,87 @@
+a{
+    transition: 0.5s;
+    font-size: 25px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI';
+}
+a:hover{
+    font-size: 27px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI';
+}
+#toppart{
+    background-color:cornflowerblue;
+}
+img{
+    width: 150px;
+}
+#billboard{
+    background-image: url(./businessstock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    position: relative;
+}
+h2{
+    transition: 1s;
+    margin-top: 300px;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family:sans-serif;
+    position: relative;
+
+}
+h2:hover{
+    transition: 1s;
+    margin-top: 300px;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+}
+img{
+    width: 2200px;
+}
+#logo{
+    width: 75px;
+}
+.showcase{
+    transition: 1s;
+    background-color:cornflowerblue;
+    width: 800px;
+    height: 800px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.showcasepicsize{
+    width: 400px;
+}
+#showcasebigdiv{
+    display: flex;
+}
+.showcase:hover{
+    background-color:darkturquoise;
+    width: 800px;
+    height: 800px;
+    margin-left: 100px;
+
+}
+p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
