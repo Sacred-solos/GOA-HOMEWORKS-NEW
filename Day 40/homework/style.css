@@ -1,0 +1,59 @@
+#techvio{
+    width: 200px;
+}
+.logos{
+    width: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+button{
+    transition: 0.5s;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(161, 98, 190);
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+button:hover{
+    width: 150px;
+    height: 50px;
+    color: rgb(161, 98, 190);
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+}
+#os{
+    background-color: white;
+    color: rgb(161, 98, 190);
+}
+#os:hover{
+    color: white;
+    background-color: rgb(161, 98, 190);
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+body{
+    background: url(yuhh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2{
+    padding-top: 300px;
+    width: 550px;
+    height: 700px;
+}
+p{
+    color: white;
+}
