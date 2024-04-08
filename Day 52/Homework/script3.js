@@ -1,0 +1,4 @@
+
+function alertNotifier(){
+    alert("Clicked")
+}
