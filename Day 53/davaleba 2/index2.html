@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="switch1">1</p>
+    <p id="switch2">2</p>
+    <button type="button" onclick="switchh()">switch</button>
+    <script>
+        const p1 = document.getElementById("switch1")
+        const p2 = document.getElementById("switch2")
+
+
+function switchh()
+{
+    const tempVal=p1.textContent
+    p1.textContent = p2.textContent
+    p2.textContent = tempVal
+
+}
+    </script>
+</body>
+</html>

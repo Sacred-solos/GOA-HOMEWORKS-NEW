@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="maths">0</p>
+    <button type="button" onclick="plus()">+1</button>
+    <button type="button" onclick="reset()">reset</button>
+    <button type="button" onclick="subtract()">-1</button>
+    <script>
+        const math = document.getElementById("maths")
+
+function plus()
+{
+    math.textContent = math.value+1
+
+}
+function reset()
+{
+    math.textContent = 0
+
+}
+function subtract()
+{
+    math.textContent = math.textContent-1
+
+}
+    </script>
+</body>
+</html>
