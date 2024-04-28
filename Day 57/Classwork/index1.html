@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <input type="text" id="bg-input" placeholder="Please enter background color"/>
+        <input type="text" id="height-input" placeholder="Please enter height"/>
+        <input type="text" id="width-input" placeholder="Please enter width"/>
+        <button type="button" id="button" onclick="changeDiv()">Submit</button>
+    </form>
+
+    <div id="change-div"></div>
+
+    <script>
+        const bgInput = document.getElementById("bg-input");
+        const heightInput = document.getElementById("height-input");
+        const widthInput = document.getElementById("width-input");
+        const div = document.getElementById("change-div");
+        const btn = document.getElementById("button");
+
+        function changeDiv(){
+            div.style.backgroundColor = bgInput.value;
+            div.style.height = heightInput.value+"px";
+            div.style.width = widthInput.value+"px";
+            
+        }
+    </script>
+
+</body>
+</html>

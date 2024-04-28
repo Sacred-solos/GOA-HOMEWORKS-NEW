@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    width: 350px;
+    background: rgb(200, 195, 195);
+    text-align: center;
+    height: 380px;
+    border-radius: 25px;
+}
+#t1,#t2{
+    width: 150px;
+}
+#t3,#t4,#t5{
+    width: 314px;
+}
+button{
+    color: white;
+    background-color: rgb(102, 204, 102);
+    width: 150px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    transition: 1.5s;
+}
+button:hover{
+    color: black;
+    background-color: rgb(50, 158, 50);
+    width: 150px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    border: 2px;
+}
