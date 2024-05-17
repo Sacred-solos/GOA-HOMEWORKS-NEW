@@ -1,0 +1,2 @@
+raining = false
+sun = true

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>number: </label>
+    <input type="number" id="1">
+    <button onclick="compare()">click to check if this number is above 18</button>
+    <script>
+        function compare(){
+            let num1 = parseInt(document.getElementById("1").value)
+            
+            if(num1 >18){
+                console.log("The number is bigger than 18");
+
+            }
+            else{
+                console.log("The number isnt bigger than 18")
+            }
+        }
+    </script>
+</body>
+</html>
