@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    color: black;
+}
+.div{
+    background-color: rgb(179, 255, 0);
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+.div button{
+    border-radius: 5px;
+    border: solid transparent 5px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+}
+.div #depo{
+    background-color: green;
+    transition: 0.3s;
+}
+.div #depo:hover{
+    background-color: rgb(0, 128, 79);
+}
+.div #depo:hover{
+    background-color: red;
+}
+.div #with{
+    background-color: red;
+    transition: 0.3s;
+}
+.div #with:hover{
+    background-color: green;
+}

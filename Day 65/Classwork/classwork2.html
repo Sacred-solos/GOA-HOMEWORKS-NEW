@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="text">name</h1>
+    <button type="submit" onclick="clickk()">click</button>
+
+    <script>
+        function clickk(){
+const name = document.getElementById("text")
+
+let num = Number(prompt("enter value: "))
+
+if(num > 10){
+    name.textContent = "GOA"
+}else{
+    name.textContent = "No bro"
+}}
+    </script>
+</body>
+</html>

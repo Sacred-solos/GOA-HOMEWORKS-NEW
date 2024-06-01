@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title class="text">Goa Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text">click button for my info.</h1>
+    <p class="text">Name:<span id="p1"></span></p>
+    <p class="text">Last Name:<span id="p2"></span></p>
+    <p class="text">Age:<span id="p3"></span></p>
+    <button onclick="info()">click</button><br><br>
+    <div class="div">
+        <h1 class="text">GOA Bank</h1>
+        
+        <p class="text">Balance:$<span id="balance">0</span></p>
+        
+        <label for="amount" class="text">Money:</label>
+        
+        <input type="number" id="amount">
+        <br><br>
+        <button onclick="deposit()" id="depo">Deposit</button>
+        
+        <button onclick="withdraw()" id="with">Withdraw</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
